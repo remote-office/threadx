@@ -1,0 +1,21 @@
+{
+	"name" : "threadx/threadx",
+	"description" : "Pure PHP Threading Library",
+	"type" : "library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "David Betgen",
+			"email" : "d.betgen@remote-office.nl"
+		}
+	],
+	"minimum-stability" : "stable",
+	"require" : {
+		"php" : ">=5.6.0",
+		"libx/libx" : "*"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"ThreadX\\" : "src/"
+		}
+	}
+}
